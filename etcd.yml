@@ -14,5 +14,4 @@ services:
       SERVICE_NAME: "etcd"
       MIN_SEEDS_COUNT: 3
     deploy:
-      mode: replicated
-      replicas: 3
+      mode: global
